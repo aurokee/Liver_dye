@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="499dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="You have been wandering through the forest for quite some time when you look up through the canopy and realize the sun has begun to set. Franticaly, you start to run, desperate to cross the forest only to trip on a root. You fall into a thicket and start to bleed badly on your arms and stomache. After a few nervous minutes a strange worm-like creature pops it&apos;s head out of the ground. You look at the curious creature with wonder when you realize it is the deadly human stomache parasite, or Cantmort. It crawls into your bleeding stomache. It starts chewing holes in your intestine and stomache, listening to the sweet music of your screaming. You die, yet find a rare specimen."
+            android:id="@+id/ground_kill_message"
+            android:layout_row="24"
+            android:layout_column="0" />
+    </GridLayout>
+</LinearLayout>

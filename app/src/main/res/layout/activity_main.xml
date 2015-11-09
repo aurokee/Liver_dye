@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/title">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Welcome to Liver_dye!"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="     You have woken up on the beach of an unfamiliar island. You don&apos;t have any items besides your clothes and an umbrella. As you adventure deeper into the mainland, you stumble upon a eerie forest and an ominous cave system. You stop to ponder for a while and realize you might find humans on the other side. You decide to stand up and look around... Your search is rendered useless when you discover the only two ways you can see to get to the other side is to go through the forest or cave. Which path will you choose?"
+            android:id="@+id/storyline"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the eerie forest"
+            android:id="@+id/forest"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the ominous cave"
+            android:id="@+id/cave"
+            android:layout_row="3"
+            android:layout_column="0" />
+    </GridLayout>
+
+</RelativeLayout>

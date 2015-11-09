@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="413dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="You climb up into the canopy. There are bbboons in the other trees, and they glare at you and shake their fists, but do nothing else. The sun has almost set, and it is getting dark. The tree you are on is significantly taller than the others, and you can see that it is a hard climb to the top. You can see the Onesti campsite from here, and they are guarding a secret American government base. Remembering that you are an American citizen, you grow excited. You head there, and the Onesti warriors greet you. Thier king, Dor, lets you into the government base, and an officer calls for a plane to come and rescue you. The government gives you $1 million to keep quiet about their base, and you are sent home happily.  Congratulations, you win at Liver_dye!!!!!!!!!  "
+            android:id="@+id/trees_live_message"
+            android:layout_row="0"
+            android:layout_column="0" />
+    </GridLayout>
+</LinearLayout>
