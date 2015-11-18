@@ -7,14 +7,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/">
+        android:id="@+id/the_layout">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="442dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="A few minutes after entering the cave you stumble upon a rock and wake some sleeping vampire bats. They are greatly annoyed and take the noise as a threat to steal territory so they attack. The bats scratch away at your eyes causing you to become blind. As you wander the perplexing cavern you slowly bleed to death... In the last few moments of your life you recall the name of the island is Xanth and the people on the other side of the island are none other than the cannibalistic tribe of Onesti. You die a sad and futile death."
-            android:id="@+id/cave_kill_message"
+            android:id="@+id/cave_death_message"
             android:layout_row="7"
             android:layout_column="0" />
     </GridLayout>
