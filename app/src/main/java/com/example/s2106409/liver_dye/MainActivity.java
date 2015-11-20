@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         Bundle sendBundle = new Bundle();
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
     }
     public void onNextClick(View source){
         //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG ).show();
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         caveActivityIntent.putExtra("groceries", sendBundle);
 
-        startActivity (caveActivityIntent, sendBundle);
+        startActivity (caveActivityIntent);
             }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
