@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG ).show();
         Log.d("LOLOLOL", "Next button clicked");
         Log.i(tag, "launching cave");
-        Intent colorActivityIntent = new Intent (this, MainActivity.class);
+        Intent caveActivityIntent = new Intent (this, CaveActivity.class);
 
-        sendBundle.putString("name", "Tom");
+        sendBundle.putString("name", "Cave");
 
-        colorActivityIntent.putExtra("groceries", sendBundle);
+        caveActivityIntent.putExtra("groceries", sendBundle);
 
-        startActivity (colorActivityIntent, sendBundle);
+        startActivity (caveActivityIntent, sendBundle);
             }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

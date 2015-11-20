@@ -1,17 +1,28 @@
 package com.example.s2106409.liver_dye;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class CaveActivity extends AppCompatActivity {
 
+    Bundle groceries;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cave);
-        Bundle
+        groceries = getIntent().getBundleExtra("groceries");
+        Log.i("GROCERIES!", groceries.getString("name"));
+        String name = groceries.getString("name");
+        TextView cave_death_message_textview = (TextView)findViewById(R.id.cave_death_message);
+        cave_death_message_textview.setText(name);
+        cave_death_message_textview.setTextColor(groceries.getInt("caveClick"));
+
     }
 
     @Override
@@ -20,6 +31,7 @@ public class CaveActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_cave, menu);
         return true;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
