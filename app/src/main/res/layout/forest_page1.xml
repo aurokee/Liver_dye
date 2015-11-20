@@ -11,17 +11,17 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="285dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="243dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="     You made it into the forest alive. You see some insect on the ground, and see footprints of well known predators on the ground. You hear agressive howls of baboons. The trees aren&apos;t safe, but neither is the ground. Which way  will you go?"
-            android:id="@+id/forest_introduction"
+            android:id="@+id/forest_intro"
             android:layout_row="5"
             android:layout_column="0" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="176dp"
             android:text="climb the looming forest trees"
             android:id="@+id/trees"
             android:layout_row="6"
@@ -30,7 +30,7 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="173dp"
             android:text="stay on the overgrown forest floor"
             android:id="@+id/ground"
             android:layout_row="7"

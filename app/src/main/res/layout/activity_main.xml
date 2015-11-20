@@ -22,26 +22,26 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="316dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_height="418dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="     You have woken up on the beach of an unfamiliar island. You don&apos;t have any items besides your clothes and an umbrella. As you adventure deeper into the mainland, you stumble upon a eerie forest and an ominous cave system. You stop to ponder for a while and realize you might find humans on the other side. You decide to stand up and look around... Your search is rendered useless when you discover the only two ways you can see to get to the other side is to go through the forest or cave. Which path will you choose?"
-            android:id="@+id/storyline"
-            android:layout_row="0"
-            android:layout_column="0" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="the eerie forest"
-            android:id="@+id/forest"
+            android:id="@+id/intro"
             android:layout_row="1"
             android:layout_column="0" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="123dp"
+            android:text="the eerie forest"
+            android:id="@+id/forest"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
             android:text="the ominous cave"
             android:id="@+id/cave"
             android:layout_row="3"
