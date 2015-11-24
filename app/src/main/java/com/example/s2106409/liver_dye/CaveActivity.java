@@ -16,6 +16,7 @@ public class CaveActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cave);
+
         groceries = getIntent().getBundleExtra("groceries");
         Log.i("GROCERIES!", groceries.getString("name"));
         String name = groceries.getString("name");
