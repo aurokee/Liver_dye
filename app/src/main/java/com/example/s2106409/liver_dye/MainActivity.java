@@ -29,8 +29,44 @@ public class MainActivity extends AppCompatActivity {
 
         caveActivityIntent.putExtra("groceries", sendBundle);
 
-        startActivity (caveActivityIntent);
+        startActivity(caveActivityIntent);
             }
+    public void onNextClick1(View source){
+        //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG ).show();
+        Log.d("LOLOLOL", "Next button clicked");
+        Log.i(tag, "launching cave");
+        Intent caveActivityIntent = new Intent (this, CaveActivity.class);
+
+        sendBundle.putString("name", "Cave");
+
+        caveActivityIntent.putExtra("groceries", sendBundle);
+
+        startActivity (caveActivityIntent);
+        }
+    public void onNextClick2(View source){
+        //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG ).show();
+        Log.d("LOLOLOL", "Next button clicked");
+        Log.i(tag, "launching cave");
+        Intent caveActivityIntent = new Intent (this, CaveActivity.class);
+
+        sendBundle.putString("name", "Cave");
+
+        caveActivityIntent.putExtra("groceries", sendBundle);
+
+        startActivity (caveActivityIntent);
+        }
+    public void onNextClick3(View source){
+        //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG ).show();
+        Log.d("LOLOLOL", "Next button clicked");
+        Log.i(tag, "launching cave");
+        Intent caveActivityIntent = new Intent (this, CaveActivity.class);
+
+        sendBundle.putString("name", "Cave");
+
+        caveActivityIntent.putExtra("groceries", sendBundle);
+
+        startActivity (caveActivityIntent);
+        }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

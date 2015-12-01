@@ -24,6 +24,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.s2106409.liver_dye.MainActivity" />
         </activity>
+        <activity
+            android:name=".ForestActivity"
+            android:label="@string/title_activity_forest"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s2106409.liver_dye.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
